@@ -1,0 +1,8 @@
+uuid: f0164ad0-dff0-4237-ade7-dd80a9055f28
+langcode: en
+status: true
+dependencies: {  }
+id: video_block
+label: 'Video Block'
+revision: 0
+description: 'Block to hold YouTube or Vimeo Videos'

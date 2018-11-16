@@ -1,0 +1,21 @@
+uuid: 1975956a-79f8-49f1-aab2-4995f163c99d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_start_date
+    - node.type.conference
+  module:
+    - datetime
+id: node.conference.field_start_date
+field_name: field_start_date
+entity_type: node
+bundle: conference
+label: 'Start Date'
+description: 'Start date of the conference'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

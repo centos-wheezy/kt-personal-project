@@ -1,0 +1,14 @@
+uuid: 4f664252-c26b-4a56-aa4c-9b5523ffd2f0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - kthwiny@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

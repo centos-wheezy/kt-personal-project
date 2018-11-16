@@ -1,0 +1,29 @@
+uuid: 5d0ef0db-ab1a-4a5b-a327-4ef84b2ed0c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.vid_block
+    - field.field.block_content.vid_block.field_uploaded_video
+  module:
+    - video_embed_field
+id: block_content.vid_block.default
+targetEntityType: block_content
+bundle: vid_block
+mode: default
+content:
+  field_uploaded_video:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: video_embed_field_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
