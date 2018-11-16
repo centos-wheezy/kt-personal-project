@@ -1,0 +1,25 @@
+uuid: 8678b785-f36a-4e2a-9942-ff0e11b7e3b5
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:vid_block:10eb7496-5cf4-410c-b649-af9d0031734f'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: blocktoshowyoutubeorvimeovidsinthecontentregion
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:10eb7496-5cf4-410c-b649-af9d0031734f'
+settings:
+  id: 'block_content:10eb7496-5cf4-410c-b649-af9d0031734f'
+  label: 'Block to show YouTube or Vimeo vids in the content region'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

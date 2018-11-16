@@ -1,0 +1,25 @@
+uuid: ca45af3f-f285-42b2-88fa-01efde31948b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:video_block:df490688-d9ea-41b9-87af-44063f27fa04'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: blockforyoutubeandvimeovidoes
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:df490688-d9ea-41b9-87af-44063f27fa04'
+settings:
+  id: 'block_content:df490688-d9ea-41b9-87af-44063f27fa04'
+  label: 'Block for YouTube and Vimeo Vidoes'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

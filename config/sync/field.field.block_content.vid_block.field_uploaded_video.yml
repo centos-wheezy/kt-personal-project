@@ -1,0 +1,25 @@
+uuid: 7da72e56-1767-4fca-a600-bf7cfa72bf66
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.vid_block
+    - field.storage.block_content.field_uploaded_video
+  module:
+    - video_embed_field
+id: block_content.vid_block.field_uploaded_video
+field_name: field_uploaded_video
+entity_type: block_content
+bundle: vid_block
+label: 'Uploaded Video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube_playlist: '0'
+    youtube: '0'
+    vimeo: '0'
+field_type: video_embed_field

@@ -1,0 +1,17 @@
+uuid: 98bb51b0-f7b9-4b48-a268-de8db2cb747c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Sponsor
+type: sponsor
+description: 'Drupal Event(s) Sponsor'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

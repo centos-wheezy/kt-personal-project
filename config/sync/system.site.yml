@@ -1,0 +1,14 @@
+uuid: 9d4a4180-ffc4-411c-8a4d-fb32d04eea48
+name: kt-personal-project
+mail: kthwiny@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
